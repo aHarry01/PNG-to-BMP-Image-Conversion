@@ -5,7 +5,9 @@ Converts compressed PNG images to uncompressed BMP format. PNG have color type o
 Compile png.cpp, BitReadingFuncs.cpp, and HuffmanTree.cpp. Run with 1 required argument specifying the PNG file to convert, and 1 optional argument specifying output BMP file name. Default BMP filename is output.bmp if there is no second argument.
 
 Example with g++:
+
 g++ png.cpp BitReadingFuncs.cpp HuffmanTree.cpp -o main.out
+
 ./main.out png_test.png output_test.bmp
 
 ## Dependencies: 
